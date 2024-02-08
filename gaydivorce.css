@@ -1,0 +1,465 @@
+@font-face {
+font-family: 'Impact_Of_Divorce';
+src: url('fonts/impact-webfont.woff') format('woff'),
+url('fonts/impact-webfont.woff2') format('woff2'),
+url('fonts/impact-webfont.ttf') format('truetype')
+}
+
+@font-face {
+font-family: 'Viper_Nora';
+src: url('fonts/viper_nora.otf') format('otf'),
+url('fonts/viper_nora.ttf') format('truetype')
+}
+
+a {
+    background-color: #CCA59E;
+    color: #010133;
+    text-decoration: none;
+}
+
+a:hover {
+   background-color: #067b06;
+}
+
+body {
+    background-color: #010133;
+    background-image: url('https://photos.smugmug.com/Alexs-Images/Divorce/i-JGBBkkq/0/ec90c70c/X2/velvet%20bg-X2.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-width: 525px;
+}
+
+footer {
+    background-color: #010133;
+    border: 3px solid #CCA59E;
+    color: #CCA59E;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #EA3323;
+    font-family: 'Impact_Of_Divorce';
+    font-size: 75px;
+    margin-bottom: 0;
+    text-align: center;
+    -webkit-text-stroke: .5px white;
+}
+
+img {
+    width: 100%;
+}
+
+#album, #band, #info, #reading, #resources, #writing {
+    background-color: #010133;
+    border: 3px solid #CCA59E;
+    color: #CCA59E;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 50px 300px;
+    padding: 0 30px 30px;
+}
+
+#album {
+    font-size: 16px;
+}
+
+#band_gif {
+    margin: 5px 100px 0;
+}
+
+#band_gif_cred, #billboard_cred, #julia_cred, #painting_cred, #promises_cred, #video_cred {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 12px;
+    text-align: right;
+}
+
+#band_gif_cred {
+    margin: 0 100px;
+}
+
+
+#band_gif_descrip, #billboard_descrip, #painting_descrip {
+    display: none;
+}
+
+#band_list {
+    position: relative;
+}
+
+
+#billboard img {
+    margin: 10px;
+    height: 600px;
+    width: auto;
+}
+
+#billboard_cred {
+    margin: 0 10px;
+    width: 450px;
+}
+
+#bio_hidden_acklen, #bio_hidden_bakst, #bio_hidden_denitzio, #bio_hidden_legault, #bio_hidden_lieberman , #bio_hidden_philbrick, #bio_hidden_segev, #bio_hidden_steinmetz, #bio_hidden_young {
+    display: none;
+}
+
+#bio_hidden_acklen img, #bio_hidden_bakst img, #bio_hidden_denitzio img, #bio_hidden_legault img, #bio_hidden_lieberman img , #bio_hidden_philbrick img, #bio_hidden_segev img, #bio_hidden_steinmetz img, #bio_hidden_young img {
+    margin: 5px;
+    height: 150px;
+    width: auto;
+}
+
+#bio_hover_acklen, #bio_hover_bakst, #bio_hover_denitzio, #bio_hover_legault, #bio_hover_lieberman, #bio_hover_philbrick, #bio_hover_segev, #bio_hover_steinmetz, #bio_hover_young {
+    color: #010133;
+    text-align: center;
+}
+
+#bio_hover_acklen span, #bio_hover_bakst span, #bio_hover_denitzio span, #bio_hover_legault span, #bio_hover_lieberman span, #bio_hover_philbrick span, #bio_hover_segev span, #bio_hover_steinmetz span, #bio_hover_young span {
+    background-color: #CCA59E;
+}
+
+#bio_hover_acklen span:hover, #bio_hover_bakst span:hover, #bio_hover_denitzio span:hover, #bio_hover_legault span:hover, #bio_hover_lieberman span:hover, #bio_hover_philbrick span:hover, #bio_hover_segev span:hover, #bio_hover_steinmetz span:hover, #bio_hover_young span:hover {
+    background-color: #067b06;
+}
+
+#bio_hover_acklen:hover, #bio_hover_bakst:hover, #bio_hover_denitzio:hover, #bio_hover_legault:hover, #bio_hover_lieberman:hover, #bio_hover_philbrick:hover, #bio_hover_segev:hover, #bio_hover_steinmetz:hover, #bio_hover_young:hover {
+    color:  #010133;
+}
+
+#bio_hidden_acklen, #bio_hidden_bakst, #bio_hidden_denitzio, #bio_hidden_legault, #bio_hidden_lieberman, #bio_hidden_philbrick, #bio_hidden_segev, #bio_hidden_steinmetz, #bio_hidden_young {
+    background-color: #181818;
+    border: 1px solid #CCA59E;
+    -moz-box-shadow: -4px 8px 8px 4px #969696;
+  	-webkit-box-shadow: -4px 8px 8px 4px #969696;
+  	box-shadow: -4px 8px 8px 4px #969696;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    text-align: justify;
+}
+
+/* remove after launch */
+
+#divorcee_title {
+    color: #EA3323;
+    font-size: 90px;
+    font-family: 'Futura_Divorce';
+    margin: 50px 0px 50px 0px;
+    -webkit-text-stroke: 3px white;
+}
+
+#ex_out {
+    clear: both;
+    float: right; 
+    font-size:50px; 
+    margin: -5px; 
+    line-height: 35px;
+}
+
+#footnotes {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#line_break{
+    display: flex;
+    justify-content: space-around;
+}
+
+#line_break img {
+    height: 100px;
+    width: auto;
+}
+
+#logo {
+     margin-top: 50px;
+     padding: 0 150px;
+}
+
+#painting {
+    border: 3px solid #CCA59E;
+    margin: 50px 300px;
+    padding: 30px;
+}
+
+
+#reading li, #resources li {
+    list-style-image: url('gifs/glit_rose_15.gif');
+    padding: 0 0 10px;
+}
+
+#rose img {
+    width: 25%;
+    margin: 10px;
+}
+
+/* remove after launch */
+#soon {
+    color: #EA3323;
+    font-family: 'Futura_Divorce';
+    font-size: 60px;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 3px white;
+}
+
+#sticky_menu {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    margin: 0 150px;
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+    z-index: 9;
+}
+
+
+#sticky_menu a {
+    background-color: #CCA59E;
+    border: 1px solid white;
+    color: #010133;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 5em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    justify-content: center;
+    margin: 0 1%;
+    padding: 1% 1%;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+#sticky_menu a:hover {
+    background-color: #010133;
+    color: #CCA59E;
+}
+
+
+#writing {
+    font-size: 18px;
+}
+
+#writing img {
+    height: 300px;
+    margin: 10px;
+    width: auto;
+}
+
+#writing_julia {
+    margin: 20px;
+}
+
+#writing_julia img {
+    height: auto;
+    margin: 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #album, #band, #info, #painting, #reading, #resources, #writing {
+        margin: 50px 200px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #album, #band, #info, #painting, #reading, #resources, #writing {
+        margin: 50px 100px;
+    }
+    
+    #band_gif {
+        margin: 5px 70px 0;
+    }
+    
+    #band_gif_cred {
+        margin: 0 70px;
+    }
+    
+    #logo {
+        padding: 0 100px;
+    }
+    
+    #sticky_menu {
+        margin: 0 50px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 800px) {
+    #album, #band, #info, #painting, #reading, #resources, #writing {
+        margin: 50px 50px;
+    }
+    
+    #band_gif {
+        margin: 5px 35px 0;
+    }
+    
+    #band_gif_cred {
+        margin: 0 35px;
+    }
+    
+    #logo {
+        padding: 0 50px;
+    }
+    
+    #sticky_menu {
+        margin: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #album, #band, #info, #painting, #reading, #resources, #writing {
+        margin: 50px 25px;
+    }
+    
+    #band_gif {
+        margin: 5px 5px 0;
+    }
+    
+    #band_gif_cred {
+        margin: 0 5px;
+    }
+    
+    #line_break img {
+    height: 75px;
+    width: auto;
+    }
+    
+    #logo {
+        padding: 0px;
+    }
+    
+    #reading, #resources {
+        padding: 0 15px 15px;
+     }
+    
+    #sticky_menu {
+        margin: 0;
+    }
+    
+    #sticky_menu a {
+        margin: 0 3px;
+    }
+    
+}
+
+@media only screen and (max-device-width: 600px) {
+    
+    footer {
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 120px;
+        -moz-text-stroke: 2px white;
+        -webkit-text-stroke: 2px white;
+    }
+    
+    #album, #band, #info, #painting, #reading, #resources, #writing {
+        font-size: 40px;
+        margin: 50px;
+    }
+    
+    #album {
+        font-size: 20px;
+    }
+    
+    #band_gif {
+        margin: 5px 30px 0;
+    }
+    
+    #band_gif_cred, #billboard_cred, #julia_cred, #painting_cred, #video_cred {
+        font-size: 20px;
+    }
+    
+    #band_gif_cred {
+        margin: 0 30px;
+    }
+    
+    #billboard img {
+        height: 900px;
+        padding-top: 10px;
+    }
+    
+    #billboard_cred {
+        width: 675px;
+    }
+    
+    #bio_hidden_acklen img, #bio_hidden_bakst img, #bio_hidden_denitzio img, #bio_hidden_legault img, #bio_hidden_lieberman img , #bio_hidden_philbrick img, #bio_hidden_segev img, #bio_hidden_steinmetz img, #bio_hidden_young img {
+        margin: 10px;
+        height: 300px;
+        width: auto;
+    }
+
+    #bio_hidden_acklen, #bio_hidden_bakst, #bio_hidden_denitzio, #bio_hidden_legault, #bio_hidden_lieberman, #bio_hidden_philbrick, #bio_hidden_segev, #bio_hidden_steinmetz, #bio_hidden_young {
+        font-size: 20px;
+    }
+
+    
+/* remove after launch */
+    #divorcee_title {
+        font-size: 150px;
+    }
+    
+    #ex_out {
+        font-size: 100px;
+        line-height: 60px;
+    }
+    
+    #footnotes {
+    font-size: 20px;
+    margin-top: 30px;
+    }
+    
+    #line_break img {
+    height: 150px;
+    }
+    
+    #logo {
+        padding: 0;
+    }
+    
+    #reading li, #resources li {
+        list-style-image: url('gifs/glit_rose_20.gif');
+    }
+    
+    #rose img {
+        width: 50%;
+    }
+    
+/* remove after launch */
+    #soon {
+        font-size: 70px;
+        margin-bottom: 100px;
+    }
+    
+    #sticky_menu {
+        margin: 0 5px;
+    }
+    
+    #sticky_menu a {
+        font-size: 30px;
+    }
+    
+    #writing img {
+        height: 600px;
+        margin: 10px;
+    }
+    
+    #writing_julia img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+}
